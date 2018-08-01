@@ -1,0 +1,269 @@
+<!DOCTYPE html> 
+
+<html lang="en">                                                                  <!-- this opens the html statement and sets language to english -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">            <!--sets the width of the page, the first step to making it dynamic-->
+<meta charset="utf-8">
+
+
+
+	<head>                                                                        <!-- this opens the head of the page for editing  -->
+
+	<title>Survey | KOHS Cyber Training Portal </title>                         <!-- this sets the title on the tab at the top of the browser  -->
+
+	
+	<!--meta data-->
+	
+		<meta name="description"
+			content="Cyber Training and Evaluation" />                             <!--this is the description of the site, it doesn't do anything because the browser can't find it-->
+		<meta name="keywords"
+			content="Cyber, Homeland, Security, Training" />                       <!--these also would help a browser find the site if it wasn't blocked-->
+		<meta name="robots"
+			content="noindex" />                                                   <!--this blocks the site from being found on a google search-->
+		<meta http-equiv="author"
+			content="Phillip Ross" />                                              <!--the person who made the site-->
+		<meta http-equiv="pragma"
+			content="no-cache" />                                                  <!--tells the site not to cache any data-->
+		
+	<!--links-->	
+		<link rel="icon" type="image/png" href="../pictures/KOHS_tab_pic.png"/>      <!-- sets the picture next to the title in the tab at the top of the browser -->
+		<link href="../css/Main.css" type="text/css" rel="stylesheet"/>
+		<link href="../css/Survey.css" type="text/css" rel="stylesheet"/>
+	<!--scripts-->
+
+		
+		
+	</head>
+	
+	<body>
+		<header>
+			<div id="background">
+			
+			</div>
+			<div class="container">   <!-- and "id" is for something unique, "class" is for things that share attributes-->
+				<div id="logo">
+					<img class="header_pic" src="../Pictures/Homeland Security.png">	<!-- ../ jumps out of the current folder, and into the previous one. -->
+					<h1> Cyber Training </h1>
+				</div>
+
+				<nav>
+					<div id="navbar">
+						<ul>
+							<li> <a href="index.html"> Home</a></li>		             <!-- a link for the home page -->
+							<li> <a href="Profile.html"> Profile </a> </li>	             <!-- a link to Home -->
+							<li> <a class="active" href="#Survey">Survey </a> </li>		 <!-- a disabled link to the survey -->
+							<li> <a href="Training.html">Training </a> </li>  			 <!-- a link to the training page -->
+							<li> <a href="About.html">About</a> </li>			         <!-- a link to the about page -->        
+						</ul>
+					</div>	
+				</nav>
+				
+		</header>
+		
+		<section id="Survey">
+			<div class="container">
+				<h2> Cyber Survey </h2>
+			
+					<form id="form1">                                                                                         <!--opens a form and specifies which form it is with an id or "form1"-->
+						<fieldset>
+							<legend>Demographic Information :</legend> <br>                                                    <!--creates a box and a title around this series of questions-->
+							<div class="form_text">
+							
+							<div class="form_question">Age Group?</div><br>
+								<input type="radio" name="age" value="18-25"> 18-25 <br>
+								<input type="radio" name="age" value="26-35"> 26-35 <br>
+								<input type="radio" name="age" value="36-50"> 36-50 <br>
+								<input type="radio" name="age" value="51 or older" checked> 51 or older <br> <br> <hr/> <br>
+								
+							<div class="form_question">Gender</div><br>
+								<select name="Gender" size="1">                                                                 <!--choose from a list, "size" determines how many items are visible-->
+									<option value="Female">Female</option> 
+									<option value="Male">Male</option>
+									<option value="Other">Other</option>
+								</select>
+							<br> <br> <hr/> <br>	
+								
+							<div class="form_question">Who is your current employer? </div><br>                                                                 <!--simple radio button questions-->
+								<input type="radio" name="profession" value="Govt Employee"> Govt Employee <br>
+								<input type="radio" name="profession" value="Military"> Military<br>
+								<input type="radio" name="profession" value="Private Sector"> Private Sector<br>
+								<input type="radio" name="profession" value="Student" > Student<br>
+								<input type="radio" name="profession" value="Other" checked> Other
+							<br> <br> <hr/> <br>
+							
+							<div class="form_question">Job Title?</div>
+							(or major if student)<br><br>
+							
+								<select name="job" size="1">
+									<option value="Administrative Assistant">Administrative Assistant</option>
+									<option value="Administrator">Administrator</option>
+									<option value="Budget/Finance">Budget/Finance</option>
+									<option value="Customer Service">Customer Service</option>
+									<option value="Data Entry">Data Entry</option>
+									<option value="Director">Director</option>
+									<option value="Drafting">Drafting</option>
+									<option value="Human Resources">Human Resources</option>
+									<option value="Insurance">Insurance</option>
+									<option value="Information Technology">Information Technology</option>
+									<option value="Legal">Legal</option>
+									<option value="Mail Clerk">Mail Clerk</option>
+									<option value="Maintenance">Maintenance</option>
+									<option value="Manager">Manager</option>
+									<option value="Medical">Medical</option>
+								</select>	
+								
+								<br> <br>
+							</div>  <!--closes "form_text" class-->	
+						</fieldset>	
+						
+						<br> <br>
+						
+						
+						<fieldset>
+							<legend>Security & Privacy :</legend><br>                                                              <!--creates a box and a title around this series of questions-->
+							<div class="form_text">
+							
+							<div class="form_question">If you use social media, what information do you allow to be seen publicly? </div>
+							<br><br>
+							
+								<input type="checkbox" name="share" value="I don't share anything publicly" checked> I don't share anything publicly <br>
+								<input type="checkbox" name="share" value="Friends"> Friends <br>
+								<input type="checkbox" name="share" value="Status"> Status <br>
+								<input type="checkbox" name="share" value="Photos"> Photos <br>
+								<input type="checkbox" name="share" value="Posts"> Posts <br>
+								<input type="checkbox" name="share" value="Birthday"> Birthday <br>
+								<input type="checkbox" name="share" value="Contact Information"> Contact Information <br><br>
+								
+							<hr/><br>
+							
+							<div class="form_question">Do you use a personal computer at work or a work computer at home? </div>
+							
+							<br><br>
+								<input type="checkbox" name "working_off_net" value="I use a personal computer at work"> I use a personal computer at work <br>
+								<input type="checkbox" name "working_off_net" value="I use a work computer at home"> I use a work computer at home. <br>
+								<input type="checkbox" name "working_off_net" value="Neither"> Neither <br>
+								
+							<br><hr/><br>
+							<div class="form_question">In how many different devices, apps and websites do you use the same password/ login information? </div>
+							
+							<br><br>
+								<input type="radio" name="password_duplication" value="I have different login and password credentials for every device, app and website that i use"> 
+									I have different login and password credentials for every device, app and website that i use<br>
+								<input type="radio" name="password_duplication" value="2-5 devices, apps and/or websites share password and login info"> 
+									2-5 devices, apps and/or websites share password and login info <br>
+								<input type="radio" name="password_duplication" value="5-10 devices, apps and/or websites share password and login info"> 
+									5-10 devices, apps and/or websites share password and login info <br>
+								<input type="radio" name="password_duplication" value="I use the same password and login on everything so i don't forget it"> 
+									I use the same password and login on everything so i don't forget it <br>		
+
+							<br><hr/><br>
+							<div class="form_question">How often do you change your passwords? </div>
+
+							<br><br>
+									<input type="radio" name="change_passwords" value="Every 6 months or less"> Every 6 months or less <br>
+									<input type="radio" name="change_passwords" value="Every year"> Every year <br>
+									<input type="radio" name="change_passwords" value="I never change a password unless i forget it or it expires"> I never change a password unless i forget it or it expires <br>
+									
+							<br><hr/><br>
+							<div class="form_question">Which of the following passwords is the most difficult for a hacker to crack? </div>
+							
+								<br><br>
+									<input type="radio" name="best_password" value="123abc"> 123abc <br>
+									<input type="radio" name="best_password" value="asdfghjkl;"> asdfghjkl; <br>
+									<input type="radio" name="best_password" value="universityofkentucky"> universityofkentucky <br>
+									<input type="radio" name="best_password" value="K4z$x9"> K4z$x9 <br>
+
+							<br><hr/><br>
+							<div class="form_question">Which of the following is the most important to keep updated? </div>
+							
+								<br><br>
+									<input type="radio" name="update_priority" value="Operating System (Windows, iOS, Android, etc.)"> Operating System (Windows, iOS, Android, etc.) <br>
+									<input type="radio" name="update_priority" value="Antivirus Software"> Antivirus Software <br>
+									<input type="radio" name="update_priority" value="Applications (Word, Adobe, games on your phone etc.)"> Applications (Word, Adobe, games on your phone etc.) <br>
+							
+							<br><hr/><br>
+							<div class="form_question">How often are you distracted or multi-tasking when you check your email or messages? </div>
+							
+								<br><br>
+									<input type="radio" name="distracted" value="Never"> Never <br>
+									<input type="radio" name="distracted" value="Sometimes"> Sometimes <br>
+									<input type="radio" name="distracted" value="Often"> Often <br>	
+									<input type="radio" name="distracted" value="Almost Always"> Almost Always <br>	
+									
+							<br><hr/><br>
+							<div class="form_question">Which statement(s) is/are true about hackers? </div>
+							
+								<br><br>
+									<input type="checkbox" name="hacker_truth" value="A hacker may try to walk through the building he is targeting, or go through the trash"> 
+										A hacker may try to walk through the building he is targeting, or go through the trash <br>
+									<input type="checkbox" name="hacker_truth" value="They are computer geniuses"> They are computer geniuses <br>
+									<input type="checkbox" name="hacker_truth" value="They only target people with lots of money or access to sensitive information"> 
+										They only target people with lots of money or access to sensitive information <br><br>
+									
+							</div>	<!--closes "form text" class -->		
+						</fieldset> <!--closes "security and privacy" fieldset-->
+						
+						<br><br>
+						
+						<fieldset>
+							<legend>Application :</legend> <br>                                                    <!--creates a box and a title around this series of questions-->
+							<div class="form_text">
+							
+							<div class="form_question">Which URL(s) is potentially dangerous? </div>                      <!--simple radio button questions-->
+							
+								<br><br>
+									<input type="checkbox" name="dangerous_URL" value="http://www.facbook.com"> http://www.facbook.com <br>
+									<input type="checkbox" name="dangerous_URL" value="http://www.google.cm"> http://www.google.cm <br>
+									<input type="checkbox" name="dangerous_URL" value="http://www.starrbucks.com"> http://www.starrbucks.com <br>
+									<input type="checkbox" name="dangerous_URL" value="They are all good"> They are all good 
+									
+								<br><br><hr/><br>
+							
+							<div class="form_question">It's okay to leave your computer unlocked when you are away from your desk if: </div>                      <!--simple radio button questions-->
+							
+								<br><br>
+									<input type="radio" name="unlocked_computer" value="You will not be far away from your computer"> You will not be far away from your computer <br>
+									<input type="radio" name="unlocked_computer" value="You will always be able to see if anyone is at your computer"> You will always be able to see if anyone is at your computer <br>
+									<input type="radio" name="unlocked_computer" value="It's never OK to leave your computer unlocked"> It's never OK to leave your computer unlocked <br>
+									<input type="radio" name="unlocked_computer" value="There is nothing important displayed on the monitor"> There is nothing important displayed on the monitor <br>
+									<input type="radio" name="unlocked_computer" value="You will only be away from your desk for a moment"> You will only be away from your desk for a moment <br>
+									
+								<br><br><hr/><br>
+								
+								<br><br>
+								
+								
+							</div>  <!--closes "form_text" class-->	
+						</fieldset>	<!--closes "application" fieldset-->
+						<br><br>
+						
+						<input class="button" type="submit" value="Submit">       <!--submits form-->
+						<input class="button" type="reset">                       <!--resets all entries-->
+						
+						</div>    <!--closes "form_text" class-->
+					</form>
+
+		
+				<br><br>
+
+	
+			
+
+		<footer>
+			<div class="container">
+				<p class="foot">Kentucky Office of Homeland Security <br>
+								 200 Mero Street, Frankfort KY <br>
+                                 Phone: (502) 564-2081 <br>
+								 
+				<a class="footer_link" href="https://homelandsecurity.ky.gov/Pages/default.aspx"> homeland security.ky.gov</a> <br>     <!-- a link  -->
+				<a class="footer_link" href="https://kentucky.gov/Pages/home.aspx"> ky.gov</a>	<br>	</p>
+
+				<img class="footer_pic" src="../Pictures/Seal of KY.png"></p>	
+			</div>					 
+		</footer>
+	
+
+
+	
+	</body>
+	
+</html>

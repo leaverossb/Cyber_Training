@@ -1,0 +1,171 @@
+<!DOCTYPE html> 
+
+<html lang="en">                                                                  <!-- this opens the html statement and sets language to english -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">            <!--sets the width of the page, the first step to making it dynamic-->
+<meta charset="utf-8">
+
+
+
+	<head>                                                                        <!-- this opens the head of the page for editing  -->
+
+	<title>Login | KOHS Cyber Training Portal </title>                         <!-- this sets the title on the tab at the top of the browser  -->
+
+	
+	<!--meta data-->
+	
+		<meta name="description"
+			content="Cyber Training and Evaluation" />                             <!--this is the description of the site, it doesn't do anything because the browser can't find it-->
+		<meta name="keywords"
+			content="Cyber, Homeland, Security, Training" />                       <!--these also would help a browser find the site if it wasn't blocked-->
+		<meta name="robots"
+			content="noindex" />                                                   <!--this blocks the site from being found on a google search-->
+		<meta http-equiv="author"
+			content="Phillip Ross" />                                              <!--the person who made the site-->
+		<meta http-equiv="pragma"
+			content="no-cache" />                                                  <!--tells the site not to cache any data-->
+		
+	<!--links-->	
+		<link rel="icon" type="image/png" href="../pictures/KOHS_tab_pic.png"/>      <!-- sets the picture next to the title in the tab at the top of the browser -->
+		<link href="../css/Login.css" type="text/css" rel="stylesheet"/>
+		
+	<!--scripts-->
+		<script src="../JavaScript/Main_Script.js"></script>
+		
+		
+	</head>
+	
+	<body>
+		<header>
+			<div id="background">
+			
+			</div>
+			<div class="container">   <!-- and "id" is for something unique, "class" is for things that share attributes-->
+				<div id="logo">
+					<h1> KOHS Cyber Training Portal </h1>
+				</div>
+
+				
+				
+		</header>
+		
+		<section id="login_form">
+			<div class="container">
+				<h2> Create Account </h2>
+				
+<form>
+
+			
+			<p>Email:
+				<input type="email" name="Email" size="15"
+				maxlength="30" placeholder="user@mail.com" required="required"/>
+			</p>
+
+			<p>Confirm Email:
+				<input type="email" name="Email" size="15"
+				maxlength="30" placeholder="user@mail.com" required="required"/>
+			</p>
+			
+		<hr/>
+		
+			<p>Username:
+				<input type="text" name="Username" size="15"
+				maxlength="30" placeholder="user" required="required"/>
+			</p>
+			
+			<p>Password:
+				<input type="password" name="Password" size="15"
+			    maxlength="30" placeholder="password" required="required"/>
+			</p>
+			
+			<p> Passwords must be <b>at least </b>12 characters long </p>
+	
+
+			<p>Re Enter Password:
+				<input type="password" name="Re Enter Password" size="15"
+				maxlength="30" placeholder="password again" required="required"/> 
+			</p>
+
+			<hr/>
+		
+		<div class="warning">				
+			<p>Security Questions are not required but are <u><strong>HIGHLY</strong></u> recommended
+				<br/>for ease of account recovery.
+			</p>
+		</div>
+		
+			<p>Security Question 1:
+				<select name="Security Question 1"> 
+					<option value="Blank">
+						</option> 
+					<option value="What was your favorite band in Highschool?">
+						What was your favorite band in Highschool?</option> 
+					<option value="What is your favorite movie genre?">
+						What is your favorite movie genre?</option> 
+					<option value="What is your least favorite hand gun manufacturer?">
+						What is your least favorite hand gun manufacturer?</option> 
+					
+					
+				</select>
+			</p>
+
+		<div class="answer">					
+			<p>Answer 1:
+				<input type="text" name="Answer 1" size="15"
+				maxlength="30" placeholder="choose question 1" />
+			</p>
+		</div>
+		
+			<p>Security Question 2:
+				<select name="Security Question 2"> 
+				
+					<option value="Blank">
+						</option> 
+					<option value="What was the location of your favorite vacation?">
+						What was the location of your favorite vacation?</option> 
+					<option value="What was the worst job you ever had?">
+						What was the worst job you ever had?</option> 
+					<option value="What is your go-to smartphone game?">
+						What is your go-to smartphone game?</option> 
+
+				</select>
+			</p>
+			
+		<div class="answer">			
+			<p>Answer 2:
+				<input type="text" name="Answer 2" size="15"
+				maxlength="30" placeholder="choose question 2" />
+			</p>
+		</div>
+		
+			<hr/>
+			<hr/>
+	
+			<input type="submit" value="submit"/>
+
+			<br/>
+			
+			<a href="index.html">Enter Site (test version only) </a>			
+		</form>	
+
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<p class="foot">Kentucky Office of Homeland Security <br>
+								 200 Mero Street, Frankfort KY <br>
+                                 Phone: (502) 564-2081 <br>
+								 
+				<a class="footer_link" href="https://homelandsecurity.ky.gov/Pages/default.aspx"> homeland security.ky.gov</a> <br>     <!-- a link  -->
+				<a class="footer_link" href="https://kentucky.gov/Pages/home.aspx"> ky.gov</a>	<br>	</p>
+
+				<img class="footer_pic" src="../Pictures/Seal of KY.png"></p>	
+			</div>					 
+		</footer>
+	
+
+
+	
+	</body>
+	
+</html>

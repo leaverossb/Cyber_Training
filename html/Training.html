@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+
+<html lang="en">                                                                  <!-- this opens the html statement and sets language to english -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">            <!--sets the width of the page, the first step to making it dynamic-->
+<meta charset="utf-8">
+
+
+
+	<head>                                                                        <!-- this opens the head of the page for editing  -->
+
+	<title>Training | KOHS Cyber Training Portal </title>                         <!-- this sets the title on the tab at the top of the browser  -->
+
+	
+	<!--meta data-->
+	
+		<meta name="description"
+			content="Cyber Training and Evaluation" />                             <!--this is the description of the site, it doesn't do anything because the browser can't find it-->
+		<meta name="keywords"
+			content="Cyber, Homeland, Security, Training" />                       <!--these also would help a browser find the site if it wasn't blocked-->
+		<meta name="robots"
+			content="noindex" />                                                   <!--this blocks the site from being found on a google search-->
+		<meta http-equiv="author"
+			content="Phillip Ross" />                                              <!--the person who made the site-->
+		<meta http-equiv="pragma"
+			content="no-cache" />                                                  <!--tells the site not to cache any data-->
+		
+	<!--links-->	
+		<link rel="icon" type="image/png" href="../pictures/KOHS_tab_pic.png"/>      <!-- sets the picture next to the title in the tab at the top of the browser -->
+		<link href="../css/Main.css" type="text/css" rel="stylesheet"/>
+		<link href="../css/Training.css" type="text/css" rel="stylesheet"/>		
+	<!--scripts-->
+		<script src="../JavaScript/script_Training.js"></script>
+		
+		
+	</head>
+	
+	<body>
+		<header>
+			<div id="background">
+			
+			</div>
+			<div class="container">   <!-- and "id" is for something unique, "class" is for things that share attributes-->
+				<div id="logo">
+					<img class="header_pic" src="../Pictures/Homeland Security.png">	<!-- ../ jumps out of the current folder, and into the previous one. -->
+					<h1> Cyber Training </h1>
+				</div>
+
+				<nav>
+					<div id="navbar">
+						<ul>
+							<li> <a href="index.html"> Home</a></li>		             <!-- a link for the home page -->
+							<li> <a href="Profile.html"> Profile </a> </li>	             <!-- a link to Home -->
+							<li> <a href="Survey.html">Survey </a> </li>			     <!-- a link to the survey -->
+							<li> <a class="active" href="#Training">Training </a> </li>  <!-- a disabled link to the training page -->
+							<li> <a href="About.html">About</a> </li>			         <!-- a link to the about page -->        
+						</ul>
+					</div>	
+				</nav>
+				
+		</header>
+		
+		<section id="training_select">
+			<div class="container">
+				<h2> Select Training </h2>
+			
+		<!--first tab-->	
+
+	<!-- all button scripts are in JavaScript/script_Training.js -->
+
+	
+			<ul>																		<!--opens the training nav list-->
+				<li>																	<!--opens the first item "network basics"-->
+					Network Basics
+					<ul>
+						<li><button onclick="Network_Basics()" id="Network_Btn"> Network Basics</button></li>		<!--go over parts of a home network, specifically router and firewall, -->
+						<li><button onclick="Component_Basics()"id="Component_Btn"> Component Basics</button></li>	<!-- go over parts of an office network -->
+						<li><button onclick="Defend_Net()"id="Defend_Net_Btn"> Defend the Network</button></li>		<!-- ?? -->
+					
+					</ul>																<!--closes links within "network basics" -->
+				</li>																	<!--closes "network basics"-->
+		
+		<!--second tab-->	
+				<li>
+					Cyber Hygiene
+					<ul>
+						<li><a href="">Office Hygiene</a></li>							<!--talk about not displaying passwords or your monitor to unnecessary people -->
+						<li><a href="">Placeholder 1</a></li>							<!--talk about downloading and links -->
+						<li><a href="">Placeholder 2</a></li>							<!--talk about mixing home/work devices/networks | using work email for private accounts/ social media-->
+					
+					</ul>																<!--closes links within "Cyber Hygiene" -->
+				</li>																	<!--closes "network basics"-->	
+
+		<!--third tab-->	
+				<li>
+					Cyber Security
+					<ul>
+						<li><a href="">Good Passwords</a></li>							<!--discuss how to write strong passwords -->
+						<li><a href="">Router Security</a></li>							<!--discuss router security -->
+						<li><a href="">Browser Security</a></li>						<!--discuss browser security -->
+					
+					</ul>																<!--closes links within "Cyber Security" -->
+				</li>		
+
+		<!--forth tab-->	
+				<li>
+					Hacker 101
+					<ul>
+						<li><a href="">Hacker Tactics</a></li>							<!--discuss the cyber kill chain -->
+						<li><a href="">Hacker Tools</a></li>							<!--discuss hacker tools (brute force password cracking) packet sniffing -->
+						<li><a href="">Placeholder</a></li>								<!-- ?? -->
+					
+					</ul>																<!--closes links within "Cyber Security" -->
+				</li>				
+			</div>		<!--closes class "container"-->
+		</section>		<!--closes section "showcase"-->
+
+		<footer>
+			<div class="container">
+				<p class="foot">Kentucky Office of Homeland Security <br>
+								 200 Mero Street, Frankfort KY <br>
+                                 Phone: (502) 564-2081 <br>
+								 
+				<a class="footer_link" href="https://homelandsecurity.ky.gov/Pages/default.aspx"> homeland security.ky.gov</a> <br>     <!-- a link  -->
+				<a class="footer_link" href="https://kentucky.gov/Pages/home.aspx"> ky.gov</a>	<br>	</p>
+
+				<img class="footer_pic" src="../Pictures/Seal of KY.png"></p>	
+			</div>					 
+		</footer>
+	
+
+
+	
+	</body>
+	
+</html>

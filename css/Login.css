@@ -1,0 +1,87 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;  /* amount of space between each line*/
+	margin: 0;
+	background-color:#f4f4f4;
+	text-align: center;
+}	
+
+form {
+
+}
+#login_form{
+	margin-bottom: 25px;
+	clear: top;
+}	
+
+
+/* Global CSS elements*/
+
+
+
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}	
+
+
+
+/*Header CSS elements*/
+
+
+
+
+header{
+	background-image: url("../pictures/Background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	Color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: red 3px solid;	
+	width: 100%;
+}	
+
+header #logo h1{                    /*styles the h1 within the header */
+	margin: 0 0 15px 0;
+	padding: 0 0 5px 10px;
+	clear: left;
+	text-decoration: underline;
+	background-color: gray;
+	font-family: agency fb, arial;
+}
+
+
+
+/*Footer CSS elements*/
+
+
+
+
+footer {
+		background-color: #35424a;
+		border-top: solid 3px red;
+}
+	
+footer .foot{
+	color: #ffffff;
+	text-align: center;
+}	
+
+footer .footer_pic{
+	margin-left: auto;
+	margin-right: auto;
+	height: 75px;
+
+}	
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+		font-weight: bold;
+}	

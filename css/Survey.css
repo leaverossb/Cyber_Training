@@ -1,0 +1,48 @@
+
+
+/* Global CSS elements */
+
+
+
+
+/* Body CSS elements */
+
+
+
+
+/*sub headers withing the survey */
+	legend {
+		font-weight: bold;
+		text-transform: uppercase;
+		text-decoration: underline;
+		
+	}
+
+/*questions within the survey */	
+	.form_question {
+		font-weight: bold;
+		
+	}
+	
+/*borders around the survey */
+	fieldset {
+		border-style: inset;
+		border-radius: 5px;
+	}	
+
+/*buttons at the bottom of the survey */	
+	.button {
+		background-color: #008CBA;  /*blue*/
+		border-style: outset;
+		color: white;
+		padding: 10px;
+		border-radius: 7px;
+	}
+
+	.button:hover {
+		background-color: #c1c1c1; /*gray*/
+		color: black;
+		font-weight: bold;
+		border-style: inset;
+		
+	}

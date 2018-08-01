@@ -1,0 +1,50 @@
+/* GLOBAL FORMAT */
+
+
+
+
+/* all links */
+	a {
+		text-decoration: none;
+		color: gray;
+	}
+
+/* all buttons */	
+	button {
+		background-color: none;
+		transition-duration: 0.4s;
+		border: none;
+		width: 200px;
+		text-align: left;
+		
+	}		
+
+	button:hover {
+		background-color: gray;
+	}
+
+
+/* all unordered lists */
+	ul {
+		list-style-type: none;
+	}
+
+
+
+/* LIST FORMAT */
+
+
+
+
+
+/*unordered list, first line item*/
+	#training_select ul li {
+		text-decoration: underline;
+		font-weight: bold;
+	}
+
+/*unordered list nested line item*/
+	#training_select ul li li {
+		text-decoration: none;
+		font-weight: normal;
+	}

@@ -1,0 +1,138 @@
+	
+
+
+
+
+/* Global CSS elements*/
+
+
+
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}	
+
+
+
+/*Header CSS elements*/
+
+
+
+
+header{
+	background-image: url("../pictures/Background_ky_flag.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	Color: #ffffff;  /*white*/
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: red 3px solid;	
+}	
+
+header a{                          /*styles all links*/
+	color: #ffffff;
+	background: gray;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header a:hover{
+	font-weight: bold;
+}	
+
+header .active{                     /*styles the active link only */
+	color: #ba1818;   /*dark red*/
+	font-weight: bold;
+	text-decoration: none;
+}	
+
+header ul{                          /*styles the list in the header */
+	margin: 0;
+	padding: 0;
+	float: right;
+	clear: left;
+}	
+
+header li{                          /*styles the list items as list items and not as links */
+	display: inline;
+	padding: 5px 20px 5px 20px;
+	background: gray;
+}	
+
+
+header #logo h1{                    /*styles the h1 within the header */
+	margin: 0 0 15px 0;
+	padding: 0 0 5px 10px;
+	clear: left;
+	text-decoration: underline;
+	background-color: gray;
+	font-family: agency fb, arial;
+}
+
+header .header_pic 	{
+	width: 40%;
+	min-width: 200px;
+	max-width: 300px;
+}	
+
+
+
+/*body CSS elements*/
+
+
+
+
+body{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;  /* amount of space between each line*/
+	margin: 0;
+	background-color:#f4f4f4;  /* light gray */
+}
+
+h3 {
+	text-decoration: underline;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+/* in the home page only */
+	#resources li {
+		display: inline;
+		padding: 5px;
+	}
+
+
+/*Footer CSS elements*/
+
+
+
+
+footer {
+		background-color: #35424a;  /*dark gray*/
+}
+	
+footer .foot{
+	color: #ffffff;    /*white*/
+	text-align: center;
+	
+}	
+
+footer .footer_pic{
+	margin-left: 46%;
+	
+	height: 75px;
+
+}	
+
+footer a{
+	color: #ffffff;
+}
+
+footer a:hover{
+		font-weight: bold;
+}	

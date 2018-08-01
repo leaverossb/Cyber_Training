@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+
+<html lang="en">                                                                  <!-- this opens the html statement and sets language to english -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">            <!--sets the width of the page, the first step to making it dynamic-->
+<meta charset="utf-8">
+
+
+
+	<head>                                                                        <!-- this opens the head of the page for editing  -->
+
+	<title>Profile | KOHS Cyber Training Portal </title>                         <!-- this sets the title on the tab at the top of the browser  -->
+
+	
+	<!--meta data-->
+	
+		<meta name="description"
+			content="Cyber Training and Evaluation" />                             <!--this is the description of the site, it doesn't do anything because the browser can't find it-->
+		<meta name="keywords"
+			content="Cyber, Homeland, Security, Training" />                       <!--these also would help a browser find the site if it wasn't blocked-->
+		<meta name="robots"
+			content="noindex" />                                                   <!--this blocks the site from being found on a google search-->
+		<meta http-equiv="author"
+			content="Phillip Ross" />                                              <!--the person who made the site-->
+		<meta http-equiv="pragma"
+			content="no-cache" />                                                  <!--tells the site not to cache any data-->
+		
+	<!--links-->	
+		<link rel="icon" type="image/PNG" href="../Pictures/tab img.PNG"/>      <!-- sets the picture next to the title in the tab at the top of the browser -->
+		<link href="../css/Main.css" type="text/css" rel="stylesheet"/>
+		<link href="../css/Profile.css" type="text/css" rel="stylesheet"/>
+		
+	<!--scripts-->
+		<script src="../JavaScript/Main_Script.js"></script>             			<!-- scripts are located in the JavaScript folder -->
+		
+		
+	</head>
+	
+	<body>
+		<header>
+			<div id="background">
+			
+			</div>
+			<div class="container">   <!-- an "id" is for something unique, "class" is for things that share attributes-->
+				<div id="logo">
+					<img class="header_pic" src="../Pictures/Homeland Security.png">	<!-- ../ jumps out of the current folder, and into the previous one. -->
+					<h1> Cyber Training </h1>
+				</div>
+
+				<nav>
+					<div id="navbar">
+						<ul>
+							<li> <a href="index.html"> Home</a></li>		     <!-- disabled link for the active page -->
+							<li> <a class="active" href="#Profile"> Profile </a> </li>	             <!-- a link to Home -->
+							<li> <a href="Survey.html">Survey </a> </li>			     <!-- a link to the survey -->
+							<li> <a href="Training.html">Training </a> </li>             <!-- a link to the training page -->
+							<li> <a href="About.html">About</a> </li>			         <!-- a link to the about page -->        
+						</ul>
+					</div>	
+				</nav>
+			</div>	
+		</header>
+		
+		<section id="showcase">
+			<div class="container">
+				<h2> Your Cyber Profile </h2>
+			
+			<!-- placeholder pics until the dashboard is built -->	
+				<p>
+				<img class="profile_pic" src="../Pictures/Dashboard Example.png" alt="dashboard">
+				<img class="profile_pic" src="../Pictures/Dashboard Example 2.png" alt="dashboard2">
+				</p>
+				
+				<br> <br>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<p class="foot">Kentucky Office of Homeland Security <br>
+								 200 Mero Street, Frankfort KY <br>
+                                 Phone: (502) 564-2081 <br>
+								 
+				<a class="footer_link" href="https://homelandsecurity.ky.gov/Pages/default.aspx"> homeland security.ky.gov</a> <br>     <!-- a link  -->
+				<a class="footer_link" href="https://kentucky.gov/Pages/home.aspx"> ky.gov</a>	<br>	</p>
+
+				<img class="footer_pic" src="../Pictures/Seal of KY.png"></p>	
+			</div>					 
+		</footer>
+	
+
+
+	
+	</body>
+	
+</html>

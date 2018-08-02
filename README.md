@@ -1,5 +1,5 @@
 # Cyber_Training
-a training portal <br>
+training portal for the cyber-impared or cyber-disadvantaged <br>
 
 Began on July 2018 <br>
 Contributions:<br>

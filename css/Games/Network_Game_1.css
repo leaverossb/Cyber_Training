@@ -1,0 +1,42 @@
+#main_container {
+	border-bottom: solid;
+	font-family: arial;
+	font-size: 20px;
+	margin-bottom: 10px;
+	border-width: 6px;
+	
+}
+
+h1 {
+	text-decoration: underline;
+	font-family: agency fb, arial;
+	font-weight: bold;
+	font-size: 40px;
+	
+}
+
+.sub_container1 {
+	background-color: gray;
+	width: 78%;
+	height: 450px;
+	float: right;
+	border: solid;
+	border-width: 2px;
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: 16px;
+	
+}
+
+.sub_container2 {
+	background-color: white;
+	width: 15%;
+	float: left;
+	border: solid;
+	border-width: 2px;
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: 16px;
+	
+	
+}

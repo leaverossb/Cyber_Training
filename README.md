@@ -10,22 +10,22 @@ Training Outline
 <br>
 1.	Networks <br>
 1.1.	Network Basics <br>
-1.1.1.	Parts <br>
-1.1.1.1.	Personal Device (computer or tablet)<br>
+1.1.1	What is a Network? <br>
+1.1.1.1.	What is a Personal Device <br>
+1.1.1.1.1	Hardware v. Software Game <br>
 1.1.1.2.	Router<br>
 1.1.1.2.1.	Cord matching game for wired routers <br>
 1.1.1.3.	Modem <br>
 1.1.1.4.	Internet <br>
-1.1.2.	Hardware/software game <br>
-1.1.3.	Basic network building game<br>
+1.1.2.	Basic network building game<br>
 <br>
-1.1.4.	Larger Networks <br>
-1.1.4.1.	Switches <br>
-1.1.4.2.	Multiple computers<br>
-1.1.4.3.	Wifi router<br>
-1.1.4.4.	Printers, scanners, phones<br>
-1.1.4.5.	Server<br>
-1.1.4.6.	Advanced network building game <br>
+1.1.3.	Larger Networks <br>
+1.1.3.1.	Switches <br>
+1.1.3.2.	Multiple computers<br>
+1.1.3.3.	Wifi router<br>
+1.1.3.4.	Printers, scanners, phones<br>
+1.1.3.5.	Server<br>
+1.1.3.6.	Advanced network building game <br>
 <br>
 1.2.	Router/Firewall <br>
 1.2.1.	More detail on router<br>

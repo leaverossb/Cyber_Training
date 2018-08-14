@@ -8,15 +8,30 @@ CSS and Initial Training Development - Sarah Fink (Morehead University)<br>
 
 Training Outline
 <br>
+0. 	What is a computer? <br>
+0.1. 	Parts: <br>
+0.1.1. 		RAM <br>
+0.1.2. 		Storage <br>
+0.1.3. 		CPU <br>
+0.1.4. 		Graphics Card <br>
+0.1.5. 		Mother Board <br>
+0.1.6. 		Power Supply <br>
+0.2. 	Computer Operations <br>
+0.2.1. 		BIOS <br>
+0.2.2. 		OS <br>
+0.2.3. 		Applications <br>
+0.2.4. 		User Interface (GUI) <br>
+0.3 	Hardware v. Software Game
 1.	Networks <br>
 1.1.	Network Basics <br>
 1.1.1	What is a Network? <br>
-1.1.1.1.	What is a Personal Device <br>
-1.1.1.1.1	Hardware v. Software Game <br>
-1.1.1.2.	Router<br>
-1.1.1.2.1.	Cord matching game for wired routers <br>
-1.1.1.3.	Modem <br>
-1.1.1.4.	Internet <br>
+1.1.1.0		History of the Internet <br>
+1.1.1.1.	LAN/WAN <br>
+1.1.1.2.	Parts of a Network <br>
+1.1.1.2.1	Router<br>
+1.1.1.2.2. 	Cord matching game for wired routers <br>
+1.1.1.2.3. 	Modem <br>
+1.1.1.2.4. 	Internet <br>
 1.1.2.	Basic network building game<br>
 <br>
 1.1.3.	Larger Networks <br>

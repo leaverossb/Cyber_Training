@@ -15,7 +15,7 @@ h1 {
 	
 }
 
-.sub_container1 {
+#sub_container1 {
 	background-color: gray;
 	width: 78%;
 	height: 450px;
@@ -28,7 +28,7 @@ h1 {
 	
 }
 
-.sub_container2 {
+#sub_container2 {
 	background-color: white;
 	width: 15%;
 	float: left;
@@ -38,5 +38,5 @@ h1 {
 	padding: 10px;
 	margin-top: 16px;
 	
-	
 }
+

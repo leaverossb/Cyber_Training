@@ -27,7 +27,7 @@ Training Outline
 1.1.1	What is a Network? <br>
 1.1.1.0		History of the Internet <br>
 1.1.1.1.	LAN/WAN <br>
-1.1.1.2.	Parts of a Network <br>
+1.1.1.2.	Network Hardware <br>
 1.1.1.2.1	Router<br>
 1.1.1.2.2. 	Cord matching game for wired routers <br>
 1.1.1.2.3. 	Modem <br>

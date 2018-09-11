@@ -50,7 +50,7 @@ Training Outline
 <br>
 1.3.	Advanced network<br>
 1.3.1.	Larger network types/challenges<br>
-1.3.2.	More detail on parts <br>
+1.3.2.	More detail on parts <br> 					<!--out of place/repetitive?--> 
 1.3.3.	Advanced network building game <br>
 <br>
 2.	Security and Privacy<br>
